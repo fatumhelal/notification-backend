@@ -74,6 +74,7 @@ az functionapp create \
 3. Publish
 
 ```bash
+npm run build
 func azure functionapp publish <appname>
 ```
 
